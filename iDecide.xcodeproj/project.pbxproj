@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC33B08913DDDFC100F6147A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC33B08813DDDFC100F6147A /* UIKit.framework */; };
+		CC33B08B13DDDFC100F6147A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC33B08A13DDDFC100F6147A /* Foundation.framework */; };
+		CC33B08D13DDDFC100F6147A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC33B08C13DDDFC100F6147A /* CoreGraphics.framework */; };
+		CC33B09313DDDFC200F6147A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC33B09113DDDFC200F6147A /* InfoPlist.strings */; };
+		CC33B09513DDDFC200F6147A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33B09413DDDFC200F6147A /* main.m */; };
+		CC33B09913DDDFC300F6147A /* iDecideAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33B09813DDDFC300F6147A /* iDecideAppDelegate.m */; };
+		CC33B09C13DDDFC300F6147A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC33B09A13DDDFC300F6147A /* MainWindow.xib */; };
+		CC33B09F13DDDFC300F6147A /* iDecideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33B09E13DDDFC300F6147A /* iDecideViewController.m */; };
+		CC33B0A213DDDFC400F6147A /* iDecideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC33B0A013DDDFC400F6147A /* iDecideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC33B08413DDDFC100F6147A /* iDecide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDecide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC33B08813DDDFC100F6147A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC33B08A13DDDFC100F6147A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC33B08C13DDDFC100F6147A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC33B09013DDDFC100F6147A /* iDecide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDecide-Info.plist"; sourceTree = "<group>"; };
+		CC33B09213DDDFC200F6147A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC33B09413DDDFC200F6147A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC33B09613DDDFC200F6147A /* iDecide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDecide-Prefix.pch"; sourceTree = "<group>"; };
+		CC33B09713DDDFC300F6147A /* iDecideAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDecideAppDelegate.h; sourceTree = "<group>"; };
+		CC33B09813DDDFC300F6147A /* iDecideAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDecideAppDelegate.m; sourceTree = "<group>"; };
+		CC33B09B13DDDFC300F6147A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CC33B09D13DDDFC300F6147A /* iDecideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDecideViewController.h; sourceTree = "<group>"; };
+		CC33B09E13DDDFC300F6147A /* iDecideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDecideViewController.m; sourceTree = "<group>"; };
+		CC33B0A113DDDFC400F6147A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iDecideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC33B08113DDDFC100F6147A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC33B08913DDDFC100F6147A /* UIKit.framework in Frameworks */,
+				CC33B08B13DDDFC100F6147A /* Foundation.framework in Frameworks */,
+				CC33B08D13DDDFC100F6147A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC33B07913DDDFBF00F6147A = {
+			isa = PBXGroup;
+			children = (
+				CC33B08E13DDDFC100F6147A /* iDecide */,
+				CC33B08713DDDFC100F6147A /* Frameworks */,
+				CC33B08513DDDFC100F6147A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC33B08513DDDFC100F6147A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC33B08413DDDFC100F6147A /* iDecide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC33B08713DDDFC100F6147A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC33B08813DDDFC100F6147A /* UIKit.framework */,
+				CC33B08A13DDDFC100F6147A /* Foundation.framework */,
+				CC33B08C13DDDFC100F6147A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC33B08E13DDDFC100F6147A /* iDecide */ = {
+			isa = PBXGroup;
+			children = (
+				CC33B09713DDDFC300F6147A /* iDecideAppDelegate.h */,
+				CC33B09813DDDFC300F6147A /* iDecideAppDelegate.m */,
+				CC33B09A13DDDFC300F6147A /* MainWindow.xib */,
+				CC33B09D13DDDFC300F6147A /* iDecideViewController.h */,
+				CC33B09E13DDDFC300F6147A /* iDecideViewController.m */,
+				CC33B0A013DDDFC400F6147A /* iDecideViewController.xib */,
+				CC33B08F13DDDFC100F6147A /* Supporting Files */,
+			);
+			path = iDecide;
+			sourceTree = "<group>";
+		};
+		CC33B08F13DDDFC100F6147A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC33B09013DDDFC100F6147A /* iDecide-Info.plist */,
+				CC33B09113DDDFC200F6147A /* InfoPlist.strings */,
+				CC33B09413DDDFC200F6147A /* main.m */,
+				CC33B09613DDDFC200F6147A /* iDecide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC33B08313DDDFC100F6147A /* iDecide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC33B0A513DDDFC400F6147A /* Build configuration list for PBXNativeTarget "iDecide" */;
+			buildPhases = (
+				CC33B08013DDDFC100F6147A /* Sources */,
+				CC33B08113DDDFC100F6147A /* Frameworks */,
+				CC33B08213DDDFC100F6147A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDecide;
+			productName = iDecide;
+			productReference = CC33B08413DDDFC100F6147A /* iDecide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC33B07B13DDDFBF00F6147A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CC33B07E13DDDFBF00F6147A /* Build configuration list for PBXProject "iDecide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC33B07913DDDFBF00F6147A;
+			productRefGroup = CC33B08513DDDFC100F6147A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC33B08313DDDFC100F6147A /* iDecide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC33B08213DDDFC100F6147A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC33B09313DDDFC200F6147A /* InfoPlist.strings in Resources */,
+				CC33B09C13DDDFC300F6147A /* MainWindow.xib in Resources */,
+				CC33B0A213DDDFC400F6147A /* iDecideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC33B08013DDDFC100F6147A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC33B09513DDDFC200F6147A /* main.m in Sources */,
+				CC33B09913DDDFC300F6147A /* iDecideAppDelegate.m in Sources */,
+				CC33B09F13DDDFC300F6147A /* iDecideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC33B09113DDDFC200F6147A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC33B09213DDDFC200F6147A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC33B09A13DDDFC300F6147A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC33B09B13DDDFC300F6147A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CC33B0A013DDDFC400F6147A /* iDecideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC33B0A113DDDFC400F6147A /* en */,
+			);
+			name = iDecideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC33B0A313DDDFC400F6147A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC33B0A413DDDFC400F6147A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC33B0A613DDDFC400F6147A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecide/iDecide-Prefix.pch";
+				INFOPLIST_FILE = "iDecide/iDecide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC33B0A713DDDFC400F6147A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecide/iDecide-Prefix.pch";
+				INFOPLIST_FILE = "iDecide/iDecide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC33B07E13DDDFBF00F6147A /* Build configuration list for PBXProject "iDecide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC33B0A313DDDFC400F6147A /* Debug */,
+				CC33B0A413DDDFC400F6147A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC33B0A513DDDFC400F6147A /* Build configuration list for PBXNativeTarget "iDecide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC33B0A613DDDFC400F6147A /* Debug */,
+				CC33B0A713DDDFC400F6147A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC33B07B13DDDFBF00F6147A /* Project object */;
+}
