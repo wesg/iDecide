@@ -53,16 +53,16 @@
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<bool key="IBUIHorizontal">NO</bool>
 			</object>
-			<object class="IBUIWindow" id="21323050">
+			<object class="IBUIWindow" id="262000176">
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUIButton" id="136586452">
-						<reference key="NSNextResponder" ref="21323050"/>
+					<object class="IBUIButton" id="339348415">
+						<reference key="NSNextResponder" ref="262000176"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{52, 146}, {210, 164}}</string>
-						<reference key="NSSuperview" ref="21323050"/>
+						<string key="NSFrame">{{55, 146}, {210, 164}}</string>
+						<reference key="NSSuperview" ref="262000176"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:222</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -88,11 +88,11 @@
 							<bytes key="NSWhite">MC41AA</bytes>
 						</object>
 					</object>
-					<object class="IBUILabel" id="1044638378">
-						<reference key="NSNextResponder" ref="21323050"/>
+					<object class="IBUILabel" id="354539641">
+						<reference key="NSNextResponder" ref="262000176"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{90, 217}, {140, 21}}</string>
-						<reference key="NSSuperview" ref="21323050"/>
+						<reference key="NSSuperview" ref="262000176"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:311</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -149,6 +149,23 @@
 					</object>
 					<int key="connectionID">11</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">decisionText</string>
+						<reference key="source" ref="943309135"/>
+						<reference key="destination" ref="354539641"/>
+					</object>
+					<int key="connectionID">30</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">buttonPressed:</string>
+						<reference key="source" ref="339348415"/>
+						<reference key="destination" ref="943309135"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">31</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -186,23 +203,23 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">27</int>
-						<reference key="object" ref="21323050"/>
+						<reference key="object" ref="262000176"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="136586452"/>
-							<reference ref="1044638378"/>
+							<reference ref="354539641"/>
+							<reference ref="339348415"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">28</int>
-						<reference key="object" ref="136586452"/>
-						<reference key="parent" ref="21323050"/>
+						<reference key="object" ref="339348415"/>
+						<reference key="parent" ref="262000176"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">29</int>
-						<reference key="object" ref="1044638378"/>
-						<reference key="parent" ref="21323050"/>
+						<reference key="object" ref="354539641"/>
+						<reference key="parent" ref="262000176"/>
 					</object>
 				</object>
 			</object>
@@ -249,7 +266,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">29</int>
+			<int key="maxID">31</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -297,6 +314,28 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">iDecideViewController</string>
 					<string key="superclassName">UIViewController</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">buttonPressed:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="actionInfosByName">
+						<string key="NS.key.0">buttonPressed:</string>
+						<object class="IBActionInfo" key="NS.object.0">
+							<string key="name">buttonPressed:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">decisionText</string>
+						<string key="NS.object.0">UILabel</string>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<string key="NS.key.0">decisionText</string>
+						<object class="IBToOneOutletInfo" key="NS.object.0">
+							<string key="name">decisionText</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/iDecideViewController.h</string>

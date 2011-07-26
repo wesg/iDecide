@@ -10,6 +10,14 @@
 
 @implementation iDecideViewController
 
+@synthesize decisionText=decisionText_;
+
+-(IBAction)buttonPressed:(id)sender
+{
+    // Do Buttony kind of things
+    decisionText_.text = @"Go for it!";
+}
+
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.
@@ -30,6 +38,7 @@
 
 - (void)viewDidUnload
 {
+    [decisionText_ release];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
